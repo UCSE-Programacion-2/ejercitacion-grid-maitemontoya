@@ -302,9 +302,3 @@ img {
     max-width: 100%;
   }
 }
-@media (min-width: 900px) {
-  .layout {
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-  }
-}
