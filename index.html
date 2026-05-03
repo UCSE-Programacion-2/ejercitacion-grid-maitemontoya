@@ -1,57 +1,96 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Ejercicio Grid</title>
-    <link rel="stylesheet" href="css/style.css">
-  </head>
-  <body>
-    <div class="container">
-      <div class="logo">
-        <img
-          src="img/logo-DM.png"
-          alt="Logo DM"
-        />
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>InstaFront</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!-- HEADER -->
+<header class="header">
+  <h2>InstaFront</h2>
+  <input type="text" placeholder="Buscador...">
+  <img src="img/fotoPerfil.png" class="avatar">
+</header>
+
+<!-- CONTENEDOR PRINCIPAL -->
+<div class="layout">
+
+  <!-- MAIN -->
+  <main class="main">
+
+    <!-- STORIES -->
+    <section class="stories">
+      <img src="img/fotoPerfil.png">
+      <img src="img/fotoPerfil.png">
+      <img src="img/fotoPerfil.png">
+      <img src="img/fotoPerfil.png">
+      <img src="img/fotoPerfil.png">
+      <img src="img/fotoPerfil.png">
+      <img src="img/fotoPerfil.png">
+    </section>
+
+    <!-- POST -->
+    <article class="post">
+      <div class="post-header">
+        <img src="img/fotoPerfil.png">
+        <p>Abril González</p>
+        <span class="menu">•••</span>
       </div>
-      <h3>🤯Rompecabezas!</h3>
-      <div class="exercice">
-        <!--Lado Completo-->
-        <div class="exercice-complete">
-          <img
-            src="img/final.jpg"
-            alt="rompecabezas completo"
-          />
-        </div>
-        <!--Lado Incompleto-->
-        <div class="excercice-incomplete">
-          <div class="grid-one">
-            <img
-              src="img/1.jpg"
-              alt="image 1"
-            />
-          </div>
-          <div class="grid-two">
-            <img
-              src="img/2.jpg"
-              alt="image 2"
-            />
-          </div>
-          <div class="grid-three">
-            <img
-              src="img/3.jpg"
-              alt="image 3"
-            />
-          </div>
-          <div class="grid-four">
-            <img
-              src="img/4.jpg"
-              alt="image 4"
-            />
-          </div>
-        </div>
+
+      <img src="img/fotoPerfil.png" class="post-img">
+
+      <div class="post-icons">
+ <img src="img/heart.png" >
+  <img src="img/comment.png">
+  <img src="img/paper.png" >
+  <img src="img/smile.png">
+</div>
+
+      <p class="likes">Les gusta a lulipringless y otras personas</p>
+      <p class="comments">Ver los 3,672 comentarios</p>
+
+<p>Gabriela Munich Hola! que placer verte en frontend!!</p>
+<p>Jonathan Gonzalez Te estabamos esperando!! Vamooh!</p>
+    </article>
+
+  </main>
+
+  <!-- SIDEBAR -->
+  <aside class="sidebar">
+    <div class="profile">
+      <img src="img/fotoPerfil.png">
+      <div>
+        <p><strong>Abril_gonzalez53</strong></p>
+        <p class="sub">A B R I L 👻</p>
       </div>
+      <a href="#">Cambiar</a>
     </div>
-  </body>
+    <p class="sugerencias">Sugerencias para ti</p>
+
+<div class="user">
+  <img src="img/fotoPerfil.png">
+  <p>Jonathan Gonzalez</p>
+  <a href="#">Seguir</a>
+</div>
+
+<div class="user">
+  <img src="img/fotoPerfil.png">
+  <p>Gabriela Munich</p>
+  <a href="#">Seguir</a>
+</div>
+  </aside>
+
+</div>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <p>Todos los derechos reservados a MAITÉ AGUSTINA MONTOYA CRUZ</p>
+</footer>
+
+</body>
 </html>
